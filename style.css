@@ -261,14 +261,14 @@ h3{color: white;
 
 .languages ul li{
         color: white;
-        font-size: 25px;
+        font-size: 20px;
+        margin-top: 10px;
 }
 
 .languages ul i{
         margin-left: 10px;
-        font-size: 40px;
+        font-size: 30px;
 }
-
 
 /* projects */
 #projects{padding: 60px 0;
@@ -292,7 +292,7 @@ h3{color: white;
            transition: transform 0.5s;
 }
 
-.layer{width: 100%;
+.layer{width:100%;
        height: 0;
        background: linear-gradient(rgba(0,0,0,0.6), rgb(197, 20, 20));
        border-radius: 10px;
@@ -363,7 +363,7 @@ h3{color: white;
 
 .design-item img {
   width: 100%;
-  height: 35rem;
+  height: 25rem;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
@@ -511,7 +511,7 @@ nav .fa-solid{display: none;
          grid-template-columns: 1fr;
   }
 
-  .designs-container img {
+  .designs-item img {
         padding: 40px 40px;
         border-radius: 10px;
   }
@@ -535,11 +535,11 @@ nav .fa-solid{display: none;
 
        .badge{
         align-items: center;
-        width: 400px;
+        width: 300px;
        }
 
        .language-text{
-               font-size: 30px;
+               font-size: 35px;
                margin-right: 10px;
                margin-left: 10px;
        }
