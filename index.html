@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favour's portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2f8bf793cd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+<div class="container">
+    <nav>
+         <p  class="logo">FavourEribregbe </p>
+        <ul id="sidemenu" >
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">contact</a></li>
+            <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+        <p class="work">WEB DEVELOPER/GRAPHIC DESIGNER</p>
+        <h1>Hi, i'm <span>Favour</span> Eribregbe<br> From Nigeria</h1>
+    </div>
+</div>
+  </div>
+<!-- About -->
+  <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/self-1.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h2>About Me</h2>
+                <p class="about-text">I'm Favour Eribregbe, a dedicated and creative professional with a passion for Graphic Design, Web Design, and Web Development. With a keen eye for detail and a love for innovation, I craft visually stunning and functional digital experiences that bring ideas to life. I believe in the power of design and technology to transform businesses and lives. My goal is to deliver high-quality solutions that exceed expectations and drive results. Let's collaborate to create something amazing that showcases your brand's unique personality and voice!</p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')" >Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+        <div class="tab-contents active-tab" id="skills">
+        <ul>
+          <li><span>Web design</span><br>Designing Web/Web-App interfaces</li>
+          <li><span>Web development</span><br>Developing websites</li>
+          <li><span>Graphic Design</span><br>Bringing Magic behind your Brand to life by creative and Magnificent designs</li>
+        </ul>
+        </div>
+        <div class="tab-contents" id="experience">
+          <ul>
+            <li><span>2022 - current</span><br>wed/web-app development </li>
+            <li><span>2020 - current</span><br>Graphic Design</li>
+            <li><span>2020 - 2022</span><br>web development/design training</li>
+          </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2018</span><br>Science Preratory Centre for learning</li>
+              <li><span>2020</span><br>CODEX computer training</li>
+              <li><span>2022</span><br>FUPRE</li>
+            </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+  </div>
+<div class="animated-banner">
+  <p>Welcome to my portfolio, we go from creativity to functionality!</p>
+</div>
+  <!-- services -->
+  <div id="services">
+    <div class="container">
+      <h2 class="sub-title">My services</h2>
+      <div class="services-list">
+<div>
+  <i class="fa-solid fa-code"></i>
+  <h3>Web Design</h3>
+  <p>Crafting visually appealing and user-friendly websites that drive engagement and conversions. With expertise in responsive design, UI/UX, and web aesthetics, I create online experiences that captivate audiences and elevate brands. From concept to launch, I ensure seamless user experiences that meet your business goals.</p>
+  <a href="https://wa.me/qr/7RSCHY5OVHD4F1">Learn more</a>
+  </div>
+  <div>
+    <i class="fa-solid fa-crop-simple"></i>
+    <h3>Web Dev</h3>
+    <p>Building custom web applications with scalable and efficient solutions. With expertise in front-end and back-end development, I craft robust and interactive web experiences that drive business results. From e-commerce platforms to complex web applications, I deliver tailored solutions that meet your unique needs.</p>
+    <a href="https://wa.me/qr/7RSCHY5OVHD4F1">Learn more</a>
+    </div>
+    <div>
+      <i class="fa-brands fa-app-store-ios" ></i>
+      <h3>Graphic Design</h3>
+      <p>Creating stunning visual content that communicates your message and establishes brand identity. With expertise in branding, typography, and visual storytelling, I design eye-catching graphics that captivate audiences and elevate your brand. From logos to marketing materials, I craft visual elements that reflect your brand's personality and values.</p>
+      <a href="https://wa.me/qr/7RSCHY5OVHD4F1">Learn more</a>
+      </div>
+      </div>
+    </div>
+  </div>
+  <!--Languages-->
+  <div class="languages">
+    <p class="language-text">Languages Used</p>
+      <ul>
+       <div class="badge"><li>TYPESCRIPT With Next js  <i class="fa-brands fa-node-js"></i></li></div> 
+       <div class="badge"> <li>JAVASCRIPT With react js  <i class="fa-brands fa-js"></i></li></div>
+       <div class="badge"> <li>HTML <i class="fa-brands fa-html5"></i></li></div>
+       <div class="badge"> <li>CSS <i class="fa-brands fa-css3-alt"></i></li></div>
+      <div class="badge"> <li>Tailwind Css <i class="fa-brands fa-css"></i></li></div> 
+      </ul>  
+      </div>
+<!-- projects -->
+<div id="projects">
+<div class="container">
+  <h2 class="subtitle">My work</h2>
+  <div class="work-list">
+    <div class="work">
+      <img src="images/weather.jpg" alt="">
+      <div class="layer">
+        <h3>Weather Forecast webApp</h3>
+        <p>I built a weather web app that delivers real-time forecasts and updates. With location-based forecasts, customizable settings, and an intuitive UI, it's a user-friendly experience. Leveraging APIs like OpenWeatherMap and built with HTML, CSS, and JavaScript, the app provides accurate weather data.</p>
+        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+      </div>
+    </div>
+    <div class="work">
+      <img src="images/business.jpg" alt="">
+      <div class="layer">
+        <h3>Business Website</h3>
+        <p>I created a business website to showcase products/services and drive leads. With a responsive design, CMS integration, and effective CTAs, the website improves brand awareness and generates leads. Built using HTML, CSS, JavaScript, and a CMS, it delivers a seamless user experience and drives business results.</p>
+        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+      </div>
+    </div>
+    <div class="work">
+      <img src="images/health.jpg" alt="">
+      <div class="layer">
+        <h3>Health Website</h3>
+        <p>I designed and developed a health website to provide valuable resources and promote wellness. The website features informative content, user-friendly design, and seamless navigation. Built using HTML, CSS, and JavaScript, it delivers a positive user experience. The outcome was increased user engagement and positive feedback.</p>
+        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+<a href="https://wa.me/qr/7RSCHY5OVHD4F1" class="SM">See more</a>
+<div class="designs">
+  <h3>My Designs</h3>
+   <div class="designs-container">
+  <div class="design-item"><img src="images/me 1.jpg" alt="Design 1"></div>
+  <div class="design-item"><img src="images/me 2.jpg" alt="Design 2"></div>
+  <div class="design-item"><img src="images/me 3.jpg" alt="Design 3"></div>
+  <div class="design-item"><img src="images/me 4.jpg" alt="Design 4"></div>
+  <div class="design-item"><img src="images/me 5.jpg" alt="Design 5"></div>
+  <div class="design-item"><img src="images/me 6.jpg" alt="Design 6"></div>
+    </div>
+</div>
+<!-- contact -->
+<div id="contact">
+<div class="container">
+<div class="row">
+<div class="contact-left">
+<h2 class="sub-title">Contact Me</h2>
+<p><i class="fa-sharp fa-solid fa-paper-plane"></i>leefavour61122@gmail.com</p>
+<p><i class="fa-solid fa-square-phone"></i>+234-9046260476</p>
+<div class="social-icons">
+  <a href="https://www.facebook.com/viviain.larns"><i class="fa-brands fa-facebook"></i></a>
+  <a href="https://twitter.com/favour61122?s=08"><i class="fa-brands fa-twitter"></i></a>
+  <a href="https://www.instagram.com/favour61122?igsh=YzljYTk1ODg3Zg=="><i class="fa-brands fa-instagram"></i></a>
+  <a href="https://wa.me/qr/7RSCHY5OVHD4F1"><i class="fa-brands fa-whatsapp"></i></a>
+  <a href="www.linkedin.com/in/favour-eribregbe-89aa5326a"><i class="fa-brands fa-linkedin"></i></a>
+</div>
+</div>
+<div class="contact-right">
+  <form action="https://usebasin.com/f/3948f9348710 " method="POST" id="contactForm">
+    <input type="text" name="name" placeholder="Your Full Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" rows="6"   placeholder="Your Message"></textarea>
+   <button type="submit" class="SM-2">Submit</button>
+  </form>
+</div>
+</div>
+</div>
+<div class="copyright"> 
+  <p>copyright <i class="fa-thin fa-copyright"></i>Favour. made with <i class="fa-sharp fa-solid fa-heart"></i> by Favour </p>
+</div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
