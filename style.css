@@ -362,7 +362,7 @@ h3{color: white;
 }
 
 .design-item img {
-  width: 30rem;
+  width: 100%;
   height: 35rem;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -386,7 +386,7 @@ h3{color: white;
 }
 
 .contact-left p{margin-top: 30px;
-                font-size: 28px;
+                font-size: 25px;
                 font-weight: 300;
 
 }
@@ -519,7 +519,7 @@ nav .fa-solid{display: none;
   .designs h3{
         margin-left: 50px;
         margin-top: 200px;
-        font-size: 40px;
+        font-size: 30px;
 }
 
 .design-item img:hover {
@@ -536,12 +536,10 @@ nav .fa-solid{display: none;
        .badge{
         align-items: center;
         width: 400px;
-        margin-left: 6%;
-        width: 400px;
        }
 
        .language-text{
-               font-size: 45px;
+               font-size: 30px;
                margin-right: 10px;
                margin-left: 10px;
        }
